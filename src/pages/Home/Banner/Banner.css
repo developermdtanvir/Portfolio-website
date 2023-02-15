@@ -1,0 +1,51 @@
+
+#round,#cooding{
+    animation: animationByOpacity 2s infinite linear;
+}
+#right-hand{
+    animation: animationByHand 2s infinite linear;
+    transform-origin: center;
+    transform-box:fill-box;
+}
+#html,#css{
+    animation: animationByHtml 2s infinite linear;
+    transform-box:fill-box;
+    transform-style: preserve-3d;
+}
+
+/* @keyframes animationByCooding {
+    form{
+        transform:skewX(30deg)
+        
+    }
+    to{
+        transform:skewX(60deg);
+    }
+} */
+@keyframes animationByHtml {
+    form{
+        transform:translateY(0px);
+    }
+    to{
+        transform: translateY(-400px);
+    }
+}
+@keyframes animationByHand {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateX(18deg);
+    }
+}
+
+
+@keyframes animationByOpacity {
+    from {
+        opacity: 0.1;
+    }
+    
+  to {
+    opacity: 5
+    }
+}

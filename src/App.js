@@ -1,12 +1,14 @@
 import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import { router } from './Pages/Routes/Route';
+import { router } from './routes/Route/Route';
 
 function App() {
   return (
-    <div className=" lg:max-w-screen-xl sm:max-w-screen-sm md:max-w-screen-md  mx-auto">
-      <RouterProvider router={router} >
-      </RouterProvider>
+    <div className="bg-[#153462] m-0 ">
+      <div className='container mx-auto'>
+        <RouterProvider router={router} >
+        </RouterProvider>
+      </div>
     </div>
   );
 }

@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: 'burtons';
+  src: url('./../public/Burtons.otf');
+}
